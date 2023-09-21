@@ -1,0 +1,18 @@
+5 biggest files:
+('/Users/gnpavel/Documents/Project.zip', {'name': 'Project.zip', 'size': 110166715, 'time': 1690179640.0704496, 'is_directory': False})
+('/Users/gnpavel/Documents/Project/Primary_Directory/A/20MB.zip', {'name': '20MB.zip', 'size': 20971520, 'time': 1689748740.3329744, 'is_directory': False})
+('/Users/gnpavel/Documents/Project/Primary_Directory/C/C1/C1.1/C1.1.1/20MB.zip', {'name': '20MB.zip', 'size': 20971520, 'time': 1689748822.4027436, 'is_directory': False})
+('/Users/gnpavel/Documents/Project/Primary_Directory/C/C1/C1.1/20MB.zip', {'name': '20MB.zip', 'size': 20971520, 'time': 1689748820.654145, 'is_directory': False})
+('/Users/gnpavel/Documents/Project/Primary_Directory/C/10MB (1).zip', {'name': '10MB (1).zip', 'size': 10485760, 'time': 1689748730.6868608, 'is_directory': False})
+5 biggest directories:
+('/Users/gnpavel/Documents/Project', {'name': 'Project', 'size': 384, 'time': 1694001080.4789128, 'is_directory': True})
+('/Users/gnpavel/Documents/Project/Primary_Directory', {'name': 'Primary_Directory', 'size': 224, 'time': 1689091581.2448626, 'is_directory': True})
+('/Users/gnpavel/Documents/Project/__pycache__', {'name': '__pycache__', 'size': 224, 'time': 1690189588.9215899, 'is_directory': True})
+('/Users/gnpavel/Documents/Project/Primary_Directory/C/C1/C1.1', {'name': 'C1.1', 'size': 192, 'time': 1689748820.6471364, 'is_directory': True})
+('/Users/gnpavel/Documents/Project/Primary_Directory/C/C1', {'name': 'C1', 'size': 192, 'time': 1689748814.165217, 'is_directory': True})
+5 newest files:
+('/Users/gnpavel/Documents/Project/.DS_Store', {'name': '.DS_Store', 'size': 6148, 'time': 1694001123.1617746, 'is_directory': False})
+('/Users/gnpavel/Documents/Project/report.txt', {'name': 'report.txt', 'size': 3848, 'time': 1694001120.8204794, 'is_directory': False})
+('/Users/gnpavel/Documents/.DS_Store', {'name': '.DS_Store', 'size': 10244, 'time': 1694001117.158551, 'is_directory': False})
+('/Users/gnpavel/Documents/Project/files_data_operation.py', {'name': 'files_data_operation.py', 'size': 1637, 'time': 1690718402.1728742, 'is_directory': False})
+('/Users/gnpavel/Documents/Project/report_calculation.py', {'name': 'report_calculation.py', 'size': 315, 'time': 1690718402.1549835, 'is_directory': False})

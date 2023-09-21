@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: book-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: book-deployment-pod
+  template:
+    metadata:
+      labels:
+        app: book-deployment-pod
+    spec:
+      containers:
+      - name: book-deployment-pod
+        image: pavelgend/api_image_book:01
+        ports:
+        - containerPort: 80

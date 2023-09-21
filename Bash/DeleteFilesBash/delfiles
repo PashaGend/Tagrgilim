@@ -1,0 +1,15 @@
+#!/bin/bash
+
+directory=.
+length=$1
+
+files=$(ls "$directory")
+
+ls | while read -r file 
+do
+  if [ ${#file} -lt $length ]
+   then
+    echo "Deleting file: $file"
+    rm "$file"
+  fi
+done

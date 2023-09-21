@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: author-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: author-deployment-pod
+  template:
+    metadata:
+      labels:
+        app: author-deployment-pod
+    spec:
+      containers:
+      - name: author-deployment-pod
+        image: pavelgend/api_image_author:02
+        ports:
+        - containerPort: 80

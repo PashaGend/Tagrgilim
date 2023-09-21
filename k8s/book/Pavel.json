@@ -1,0 +1,46 @@
+{
+  "authors":[
+    {
+			"author": "David",
+			"from": "Israel",
+			"age": 30
+		},
+		{
+			"author": "Paul",
+			"from": "USA",
+			"age": 25
+		},
+		{
+			"author": "Alex",
+			"from": "Ukraine",
+			"age": 43
+		},
+    {
+			"author": "Moshe",
+			"from": "Israel",
+			"age": 40
+		}
+	],
+"books":[
+  {
+    "book": "Alice",
+    "author": "David",
+    "pages": 130
+  },
+  {
+    "book": "Alice2",
+    "author": "Paul",
+    "pages": 140
+  },
+  {
+    "book": "Alice3",
+    "author": "Alex",
+    "pages": 120
+  },
+  {
+    "book": "Alice4",
+    "author": "Moshe",
+    "pages": 150
+  }
+]
+}

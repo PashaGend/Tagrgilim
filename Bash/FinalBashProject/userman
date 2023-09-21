@@ -1,0 +1,61 @@
+#!/bin/bash
+
+#echo "Type: 'find' press Enter and then type name of user for finding user"
+#echo "Type: 'new' press Enter and then type name of user for new user creating"
+#echo "Type: 'del' press Enter and then type name of user for user delete"
+#echo "Type: 'list' press Enter for showing list of all users"
+#echo "Type: 'exit' press Enter for script exiting"
+
+read -p "users>" command
+touch Userslist
+
+
+while [[ $command != exit ]]
+
+ do
+  printf "users>"
+  read command
+
+if [[ $command = "find" ]]
+ then
+  echo -n "Enter username: "
+  read finduser
+if [[ -e "$finduser.user" ]]
+ then
+  cat "$finduser.user"
+ else
+  echo "No User $finduser"
+fi
+fi
+
+if [[ $command == "new" ]]
+ then
+  echo -n "Enter username: "
+  read newuser
+  touch "$newuser.user"
+  echo "user: $newuser" > "$newuser.user"
+  echo "password: $RANDOM" >> "$newuser.user"
+  echo "Created User $newuser"
+  echo "$newuser" >> Userslist
+fi
+
+if [[ $command = "del" ]]
+ then 
+  echo -n "Enter username: "
+  read deluser
+  rm $deluser.user
+  echo "$deluser Deleted"
+  sed -i '' -e "/$deluser/d" Userslist
+
+
+fi
+
+if [[ $command = "list" ]]
+
+then
+ cat Userslist
+fi
+
+done
+
+echo ByeBye
